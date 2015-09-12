@@ -1,0 +1,13 @@
+{
+  "name": "gallery",
+  "description": "Returns the images in the gallery.",
+  "example": "https://api.imgur.com/3/gallery/hot/viral/0.json",
+  "method": "GET",
+  "routes": ["https://api.imgur.com/3/gallery/{section}/{sort}/{page}?showViral=bool", "https://api.imgur.com/3/gallery/{section}/{sort}/{window}/{page}?showViral=bool"],
+  "responseModel": "Gallery Image OR Gallery Album",
+  "section": ["hot", "top", "user"], 
+  "sort": ["viral", "top", "time", "rising"],
+  "page": 0,
+  "window": ["day", "week", "month", "year", "all"],
+  "showViral": true
+}
