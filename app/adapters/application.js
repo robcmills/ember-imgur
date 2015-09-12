@@ -1,7 +1,7 @@
 import DS from 'ember-data';
 
 export default DS.RESTAdapter.extend({
-  host: 'https://api.imgur.com',
-  namespace: '3',
-  defaultSerializer: 'JSONAPISerializer'  
+  host: 'https://ember.imgur.zqx.ca',
+  namespace: 'loopback/api',
+  // defaultSerializer: 'JSONAPISerializer'  
 });
